@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class program {
 
 
-    public static void main(String[] args) throws IncorrectAgeException, NameUndefinedException {
+    public static void main(String[] args)  {
         Scanner scan = new Scanner(System.in);
         String imie;
         String nazwisko;

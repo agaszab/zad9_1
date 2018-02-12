@@ -11,19 +11,17 @@ public class program {
 
 
         try {
-            Person person = new Person();
+
             System.out.println("Podaj imię:");
             imie = scan.nextLine();
-            person.setFirstName(imie);
             System.out.println("Podaj nazwisko:");
             nazwisko = scan.nextLine();
-            person.setLastName(nazwisko);
             System.out.println("Podaj wiek:");
             wiek = scan.nextInt();
-            person.setAge(wiek);
             System.out.println("Podaj PESEL:");
-            person.setPesel(scan.nextLong());
+            Long pesel=scan.nextLong();
             scan.nextLine();
+            Person person = new Person(imie,nazwisko, wiek, pesel );
             person.show();
         } catch (NameUndefinedException e) {
             System.out.println(e.getMessage());

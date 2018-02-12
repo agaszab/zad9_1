@@ -9,6 +9,7 @@ public class program {
         String nazwisko;
         int wiek;
 
+
         try {
             Person person = new Person();
             System.out.println("Podaj imię:");

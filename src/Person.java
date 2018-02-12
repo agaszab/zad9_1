@@ -1,9 +1,9 @@
 public class Person {
 
-    String firstName;
-    String lastName;
-    int age;
-    long pesel;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private long pesel;
 
     public Person(String firstName, String lastName, int age, long pesel)  throws IncorrectAgeException, NameUndefinedException {
 
